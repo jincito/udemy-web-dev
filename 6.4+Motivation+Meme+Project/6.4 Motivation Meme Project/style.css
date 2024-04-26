@@ -1,0 +1,16 @@
+html {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    font-family: "Regular Libre Baskerville", cursive;
+    width: 50%;
+    margin-left: 25%;
+}
+
+img {
+    width: 100%;
+    border: 5px solid white;
+}
