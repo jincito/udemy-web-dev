@@ -1,1 +1,23 @@
 /* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+/*parent to child selector*/
+.box > p {
+    color: firebrick;
+}
+
+/*descendant selector*/
+.box li {
+    color: blue;
+}
+
+/*chaining-always start with element e.g; h1.class#id*/
+li.done {
+    color: seagreen;
+}
+
+ul p.done { /*can use parent-child selector*/
+    font-size: 0.5rem;
+}
